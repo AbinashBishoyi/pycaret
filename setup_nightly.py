@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 import time
 
-nightly_version = "2.3.1"
+nightly_version = "2.3.2"
 
 nightly_readme = f"This is a nightly version of the [PyCaret](https://pypi.org/project/pycaret/) library, intended as a preview of the upcoming {nightly_version} version. It may contain unstable and untested code.\n"
 
@@ -36,6 +36,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
     ],
     packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     include_package_data=True,
